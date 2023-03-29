@@ -1,0 +1,30 @@
+## CSV data
+# connect: {"from": "esPropietarioDe", "to": "NIF", "invert": false, "style": "curved=0;endArrow=blockThin;endFill=1;fontSize=11;"}
+# connect: {"from": "seAsociaCon", "to": "codigo", "invert": false, "style": "curved=0;endArrow=blockThin;endFill=1;fontSize=11;"}
+# connect: {"from": "contrata", "to": "numeroContrato", "invert": false, "style": "curved=0;endArrow=blockThin;endFill=1;fontSize=11;"}
+# connect: {"from": "recomienda", "to": "NIF", "invert": false, "style": "curved=0;endArrow=blockThin;endFill=1;fontSize=11;"}
+# connect: {"from": "ocupa", "to": "NIF", "invert": false, "style": "curved=0;endArrow=blockThin;endFill=1;fontSize=11;"}
+# connect: {"from": "posee", "to": "codigo", "invert": false, "style": "curved=0;endArrow=blockThin;endFill=1;fontSize=11;"}
+# connect: {"from": "realiza", "to": "codigoTecnico", "invert": false, "style": "curved=0;endArrow=blockThin;endFill=1;fontSize=11;"}
+# connect: {"from": "registra", "to": "codigoLuzAutoconsumo", "invert": false, "style": "curved=0;endArrow=blockThin;endFill=1;fontSize=11;"}
+# style: style=rounded=1
+# width: 180
+# height: 100
+# padding: 10
+# ignore: id
+# valign: middle
+# halign: center
+# _START_
+
+id,name,esPropietarioDe,seAsociaCon,contrata,recomienda,ocupa,posee,realiza,registra
+1,Cliente,NIF,,,,,,,
+2,Vivienda,,codigo,,,,,,
+3,Contrato,,,numeroContrato,,,,,
+4,DepartamentoIndustria,,,,,NIF,,,,,
+5,Servicio,,,,numeroContrato,,,,,
+6,Gas,,,,numeroContrato,,,,,
+7,Luz,,,,numeroContrato,,,,,
+8,LuzAutoconsumo,,,,numeroContrato,,,,,
+9,ReversionEnergia,,,,,codigoLuzAutoconsumo,,,,,
+10,Tecnico,,,,,,NIF,codigoLuzAutoconsumo,,,
+11,Revision,,,,,,codigo,codigoTecnico,,,
